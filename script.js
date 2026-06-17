@@ -7,8 +7,8 @@ const temoignages = [
         commentaire: "En tant que maman de deux enfants (3 et 5 ans), je suis toujours à la recherche d’activités pour les occuper sans les mettre devant la télé. Cette application m’a sauvé plusieurs fois ! Les activités sont simples, rapides et les enfants s’y intéressent vraiment. J’adore pouvoir ajouter mes propres idées aussi."
     },
      {
-        name: "mary leblanc",
-        image: "https://images.unsplash.com/photo-1718471974887-ff78e62012cb?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        name: "Mary Leblanc",
+        image:    "https://images.unsplash.com/photo-1718471974887-ff78e62012cb?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         rating: "★★★★☆",
         title: "Pratique quand on voyage",
         commentaire: "Mon fils a 2 ans et lors des longs trajets en voiture, je ne savais plus quoi faire. La catégorie « transport » est parfaite : des petites activités qu’on peut faire même dans la voiture. On a évité les écrans et il était content pendant tout le trajet."
@@ -37,7 +37,7 @@ const temoignages = [
         },
      {
 
-        name: "samir hmaimsa",
+        name: "Samir Hmaimsa",
         image: "https://plus.unsplash.com/premium_photo-1689198809828-bcec83d07182?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         rating: "★★★★★",
         title: "Aide vraiment les parents pressés",
@@ -45,7 +45,7 @@ const temoignages = [
         },
      {
 
-        name: "mina rocube",
+        name: "Mina Rocube",
         image: "https://images.unsplash.com/photo-1589529800500-8a1a1a047e0e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         rating: "★★★★★",
         title: "Une app qui comprend les parents",

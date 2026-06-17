@@ -13,16 +13,18 @@
     font-family: "Nunito Sans", sans-serif;
 }
 
-body{
+
+body {
     color: var(--text);
 }
 
 h2 {
-    
+
     color: var(--secondary);
     display: flex;
     justify-content: center;
-    padding: 50px;
+    padding-bottom: 50px;
+
 }
 
 ul {
@@ -31,18 +33,34 @@ ul {
     gap: 10px;
 }
 
-article{
+article {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+.padding-bottom {
+    padding-bottom: 150px;
+}
 
 /* HEADER - NAV */
+
+.div-header  {
+    display: flex;
+    flex-direction: row;
+     justify-content: space-between;
+}
 a.lien-nav {
-    text-decoration: none;
+
+text-decoration: none;
     font-size: 20px;
     color: #0078BE;
+
+}
+
+li {
+    list-style: none;
+
 }
 
 
@@ -58,6 +76,20 @@ a.bouton-hero {
     border-radius: 8px;
 }
 
+.texte-hero {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.texte-hero h2 {
+    justify-content: start;
+}
+
+a {
+    width: fit-content;
+}
 
 /* Section Probleme(Amal) */
 .container {
@@ -69,13 +101,26 @@ a.bouton-hero {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    gap: 20px;
+}
+
+.flex-row-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .contenu-enjeu-sante {
-    background-color: #B8E5FF;
+    background-color: var(--secondary);
     max-width: 1240px;
     max-height: 500px;
     border-radius: 1rem;
+
+    /*TO DO : on met pas de p dans p*/
+    p {
+        color: white;
+    }
 }
 
 .flex-column {
@@ -97,31 +142,80 @@ a.bouton-hero {
     border-radius: 0 1rem 1rem 0;
 }
 
-.all-cards{
+.all-cards {
     display: flex;
-    gap: 2rem;
+    gap: 30px;
+    margin-top: 2rem;
 }
 
-.card{
-    width: 373px;
-    height: 502px;
+.card {
+    width: 380px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+
 }
 
-.paragraphe-card{
+.card img {
+    width: 100%;
+}
+
+.paragraphe-card {
     display: flex;
     text-align: center;
 }
 
 /* Section Solution(Cheima) */
+.card-benefice {
+    gap: 10px;
 
+    /* display: flex; */
+    width: 400px;
+    height: 50%;
+    padding: 20px;
+    justify-content: center;
+    border-radius: 10px;
+    align-items: start;
 
+}
 
+#blue {
+    box-shadow: 0px 0px 4px #0000001e;
+    border: 1px solid #0078be56;
+    color: #0066cc;
+}
 
+#orange {
+    box-shadow: 0px 0px 4px #0000001e;
+    border: 1px solid #CC4C0A;
+    color: #cc4b0ad6;
+}
+
+#yellow {
+    box-shadow: 0px 0px 4px #0000001e;
+    border: 1px solid #996100;
+    color: #996100be;
+}
+
+.card-benefice p {
+    text-align: start;
+}
+
+.card-benefice svg {
+    width: 70px;
+}
+
+#solution .flex-column {
+    display: flex;
+    justify-content: space-evenly;
+}
 
 
 /* Section Preuve (Sakina) */
-#preuves{
- max-width: 800px;
+#preuves {
+    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -153,13 +247,21 @@ a.bouton-hero {
 }
 
 .carte {
-   background: linear-gradient(to bottom,#0066cc , rgb(184, 204, 255));
+
+    background:
+        radial-gradient(circle at top left,
+            rgba(0, 120, 190, .15),
+            transparent 40%),
+        radial-gradient(circle at bottom right,
+            rgba(204, 76, 10, .15),
+            transparent 40%);
+    box-shadow: 0px 10px 30px rgb(12, 12, 12);
     border-radius: 10px;
     padding: 30px;
     text-align: center;
 }
 
-#img1{
+#img1 {
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -168,30 +270,30 @@ a.bouton-hero {
     margin-bottom: 15px;
 }
 
-#nom1{
+#nom1 {
     font-size: 18px;
     margin-bottom: 10px;
 }
 
-.note{
+.note {
     color: #ffc107;
     font-size: 18px;
     letter-spacing: 5px;
     margin-bottom: 15px;
 }
 
-#titre1{
+#titre1 {
     font-size: 18px;
     color: #0066cc;
     margin-bottom: 18px;
 }
 
-.commentaire1{
+.commentaire1 {
     font-size: 14px;
     color: #666;
 }
 
-.fleche{
+.fleche {
     background-color: #0066cc;
     color: white;
     border: none;
@@ -204,7 +306,7 @@ a.bouton-hero {
     justify-content: center;
 }
 
-.fleche-gauche{
+.fleche-gauche {
     background-color: #0066cc;
     color: white;
     border: none;
@@ -220,13 +322,18 @@ a.bouton-hero {
 /* Section Promesse (Sarrah) */
 .div-promesse {
     text-align: center;
-        h2 {
+
+    h2 {
         margin-top: 10px;
-    
-      }
+
+    }
 }
 
 .div-article {
+    h4 {
+        color: #0078BE;
+    }
+
     border: 1px solid rgb(6, 6, 6);
     width: 350px;
     height: 340px;
@@ -238,7 +345,7 @@ a.bouton-hero {
     margin-right: 5px;
     row-gap: 10px;
     gap: 5px;
-    background-color: #4facfecf;
+
 
 }
 
@@ -246,12 +353,18 @@ a.bouton-hero {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 25px;
+    gap: 30px;
 
     img {
-        width: 330px;
+
         border-radius: 19px;
+
     }
 }
+
+
+/* section CTA(Cheima-Sarrah) */
+;
+
 
 /* section Footer (Cheima) */
