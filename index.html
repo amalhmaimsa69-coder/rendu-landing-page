@@ -6,68 +6,108 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
 
-    
+
     <main>
         <header>
-            <div>
-
+            <div class="div-header">
+                <img src="assets/sectionHero/logo.svg" alt="">
+                <nav>
+                    <ul>
+                        <li>
+                            <a class="lien-nav" href="">Accueil</a>
+                        </li>
+                        <li>
+                            <a class="lien-nav" href="">Documentation</a>
+                        </li>
+                        <li>
+                            <a class="lien-nav" href="">Nous contacter</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </header>
+
+
         <!-- Section HERO (Mohamed-Amine) -->
         <section>
-            
+            <div class="div-hero">
+                <div class="texte-hero">
+                    <p>APPTIVITY</p>
+                    <h1>Connecter vous avec vos enfants et déconnecter les des écrans </h1>
+                    <h2 class="h2-hero">AppTivity, une application qui vous facilite la vie </h2>
+                    <a class="bouton-hero" href="">Découvrir</a>
+                </div>
+                <img src="assets/sectionHero/img-hero.jpg" alt="">
+            </div>
         </section>
+
+
         <!-- Section Problème (Amal) -->
         <section>
-            <div>
-                <h2>UN ENJEU DE SANTÉ</h2> 
-                <div>
-                    <p>Les écrans sont aujourd’hui omniprésents dans notre société, au point de s’inviter très tôt dans
-                        la vie des enfants.
-                    </p>
-                    <p>
-                        Cette exposition précoce, souvent banalisée, soulève pourtant de nombreuses inquiétudes. Retard
-                        de langage, baisse de l’activité physique, difficultés de sociabilisation : les conséquences sur
-                        le développement des plus jeunes sont de plus en plus évidentes.
-                    </p>
-                    <p>
-                        En conclusion dans un contexte où les écrans se multiplient au sein des foyers, la question de
-                        leur usage chez les enfants devient un véritable enjeu de santé et d’éducation.
-                    </p>
+            <div class="container">
+                <h2>UN ENJEU DE SANTÉ</h2>
+                <div class="flex-row contenu-enjeu-sante">
+                    <div class="flex-column text-enjeu-sante">
+                        <p class="">Les écrans sont aujourd’hui omniprésents dans notre société, au point de s’inviter
+                            très tôt
+                            dans
+                            la vie des enfants.
+                        </p>
+                        <p>
+                            Cette exposition précoce, souvent banalisée, soulève pourtant de nombreuses inquiétudes.
+                            Retard
+                            de langage, baisse de l’activité physique, difficultés de sociabilisation : les conséquences
+                            sur
+                            le développement des plus jeunes sont de plus en plus évidentes.
+                        </p>
+                        <p>
+                            En conclusion dans un contexte où les écrans se multiplient au sein des foyers, la question
+                            de
+                            leur usage chez les enfants devient un véritable enjeu de santé et d’éducation.
+                        </p>
+                    </div>
+                    <img src="assets/sectionProbleme/imageEnjeuDeSante.png" alt="" class="img-enjeu-sante">
                 </div>
             </div>
-            <div>
-                <article>
-                    <img src="assets/sectionProblème/ecransAvant3Ans.png" alt="" srcset="">
+            <div class="all-cards">
+                <article class="card">
+                    <img src="assets/sectionProbleme/ecransAvant3Ans.png" class="img-card">
                     <h3>Écrans avant 3 ans</h3>
-                    <p>Avant 3 ans : 0 écran recommandé. Des études montrent que l’exposition précoce freine le
+                    <p class="paragraphe-card">Avant 3 ans : 0 écran recommandé. Des études montrent que l’exposition précoce freine le
                         développement du langage et des interactions sociales. La limitation est d’autant plus
                         importante qu’elle est complexe. En effet en France, une famille possède en moyenne 6 écrans.
                     </p>
                 </article>
-                <article>
-                    <img src="assets/sectionProblème/sedentariteEtEcrans.png" alt="" srcset="">
+                <article class="card">
+                    <img src="assets/sectionProbleme/sedentariteEtEcrans.png" class="img-card">
                     <h3>Sédentarité et écrans</h3>
-                    <p>Les enfants exposés aux écrans dès 2 ans présentent un IMC plus élevé à 5 ans. En parallèle, les
+                    <p class="paragraphe-card">Les enfants exposés aux écrans dès 2 ans présentent un IMC plus élevé à 5 ans. En parallèle, les
                         capacités cardio-vasculaires ont chuté de 25% en 40 ans. Le manque d’activité physique lié aux
                         écrans est aujourd’hui un enjeu majeur de santé.</p>
                 </article>
-                <article>
-                    <img src="assets/sectionProblème/ecransEtLangage.png" alt="" srcset="">
+                <article class="card">
+                    <img src="assets/sectionProbleme/ecransEtLangage.png" class="img-card">
                     <h3>Écrans et langage</h3>
-                    <p>Le risque de troubles du langage est multiplié par 3 chez les enfants exposés aux écrans avant
+                    <p class="paragraphe-card">Le risque de troubles du langage est multiplié par 3 chez les enfants exposés aux écrans avant
                         l’école, et par 6 sans stimulation par les parents. Une règle simple à retenir : 4 moments sans
                         écran matin, repas, chambre et coucher.</p>
                 </article>
             </div>
         </section>
-        <!-- TO DO : vous pouvez mettre vos noms sur les comments ou les initiales pour savoir qui a dit quoi LD) -->
-        <!-- Section Solution (Cheima) -->
 
+
+        <!-- TO DO : vous pouvez mettre vos noms sur les comments ou les initiales pour savoir qui a dit quoi LD) -->
+
+        <!-- Section Solution (Cheima) -->
         <section id="solution">
             <div class="container">
                 <h2>NOTRE SOLUTION</h2>
@@ -78,61 +118,68 @@
 
                 <!-- TO DO : PAS D'ACCENT DANS LES NOMS DE CLASSE -->
                 <div class="card-benefice">
-                    <article>
+                    <article class="">
                         <img src="assets/sectionSolution/timer.svg" alt="icone sablier">
-                        <p>Gain de temps</p>
+                        <p class="card-title">Gain de temps</p>
                         <p>Ne passer plus des heures à chercher une activité à pour enfant tandis que votre temps est
                             compté.</p>
                     </article>
                     <article>
                         <img src="assets/sectionSolution/health.svg" alt="icone santé">
-                        <p>Préserve la santé de l’enfant</p>
+                        <p class="card-title">Préserve la santé de l’enfant</p>
                         <p>Votre enfant développe son imagination,
                             sa motricité et sa créativité à travers d’activités ludiques.</p>
                     </article>
                 </div>
-                <!-- <img src="" alt=""> mookup de l'appli au milieu -->
+                <img src="assets/sectionSolution/mookup.png" alt="presentation de l'appli">
 
                 <div class="card-benefice">
-                    <article>
+                    <article class="card">
                         <img src="assets/sectionSolution/filter.svg" alt="icone filtre">
-                        <p>Filtrer les activités</p>
+                        <p class="card-title">Filtrer les activités</p>
                         <p>Disposer de filtres en accès rapide sur l’interface pour une recherche précise
                             en fonction de votre situation.</p>
                     </article>
                     <article>
                         <img src="assets/sectionSolution/kids.svg" alt="icone enfant">
-                        <p>Adaptabilité</p>
+                        <p class="card-title">Adaptabilité</p>
                         <p>Un large choix d’activités adaptées à l’âge de votre enfant et à ses envies,
                             et surtout du temps dont il dispose</p>
                     </article>
                 </div>
             </div>
         </section>
+
+
         <!-- Section Preuve (Sakina) -->
         <section id="preuves">
-            <!-- TO DO : attention indentation -->
-            <h2>CE QU ILS PENSENT DE NOUS</h2>
-            <div class="container-carrousel">
-            <button class="fleche-gauche" id="prevBtn">➤</button>
 
-            <div class="carrousel">
-                <div class="interieur-carrousel" id="carouselInner">
-                    
+            <!-- TO DO : attention indentation -->
+            <h2 class="titre-comment">CE QU ILS PENSENT DE NOUS</h2>
+            <div class="container-carrousel">
+                <button class="fleche-gauche" id="prevBtn">⬅</button>
+
+                <div class="carrousel">
+                    <div class="defilement" id="scroll">
+                        <div class="carte">
+                            <img id="img1" src="">
+                            <h3 id="nom1"></h3>
+                            <div class="note" id="note1"></div>
+                            <h4 id="titre1"></h4>
+                            <p id="commentaire1"></p>
+                        </div>
+                    </div>
                 </div>
+
+                <button class="fleche" id="nextBtn">➡</button>
             </div>
 
-            <button class="fleche" id="nextBtn">➤</button>
-        </div>
-
-        <div class="points" id="dotsContainer">
-            
-        </div>
-    </div>
 
 
 
         </section>
+
+
         <!-- Section Engagement (Sarrah) -->
         <section>
             <!-- TO DO : Pour les noms de classe on écrit avec un tiret entre les mots "div-promesse" SANS MAJUSCULE -->
@@ -144,55 +191,101 @@
                     Nous pro mettons de proposer des jeux et des activités qui développent la curiosité, la créativité,
                     la concentration.</P>
             </div>
-            <article class="div-article">
-                <img src="assets/sectionPromesse/image2.png">
-                <h3>Grandir en s’amusant</h3>
-                <p>Chaque enfant grandit à son rythme,en douceur et en confiance, grâce à des activités ludiques
-                    qui favorisent l’éveil.</P>
-            </article>
+            <div class="card-contain">
+                <article class="div-article">
+                    <img src="assets/sectionPromesse/image (1).png">
+                    <h3>Grandir en s’amusant</h3>
+                    <p>Chaque enfant grandit à son rythme,en douceur et en confiance, grâce à des activités ludiques
+                        qui favorisent l’éveil.</P>
+                </article>
 
-            <article class="div-article">
-                <img src="assets/sectionPromesse/image3.png">
-                <h3>Découvrir en s’amusant </h3>
-                <p>Nous aidons l’enfant à éveiller sa curiosité naturelle, à explorer ses talents et à grandir en
-                    confiance, grâce à des jeux éducatifs.</P>
-            </article>
+                <article class="div-article">
+                    <img src="assets/sectionPromesse/image (2).png">
+                    <h4>Découvrir en s’amusant </h4>
+                    <p>Nous aidons l’enfant à éveiller sa curiosité naturelle, à explorer ses talents et à grandir en
+                        confiance, grâce à des jeux éducatifs.</P>
+                </article>
 
-            <article class="div-article">
-                <img src="assets/sectionPromesse/image1.png">
-                <h3>S’enrichir par le jeu </h3>
-                <p>Nous aidons chaque enfant à développer ses capacités intellectuels, créatives étape par étape, avec
-                    des activités adaptées, progressives et motivantes.</P>
-            </article>
+                <article class="div-article">
+                    <img src="assets/sectionPromesse/image (3).png">
+                    <h4>S’enrichir par le jeu </h4>
+                    <p>Nous aidons chaque enfant à développer ses capacités créatives étape par étape,
+                        avec
+                        des activités progressives et motivantes.</P>
+                </article>
 
-            <article class="div-article">
-                <img src="assets/sectionPromesse/image7.png">
-                <h3>Découvrir le monde autrement </h3>
-                <p>Accompagner chaque enfant dans da découverte du monde avec des activités simples modernes et adaptées
-                    à l’âge de l’enfant.</P>
-            </article>
+                <article class="div-article">
+                    <img src="assets/sectionPromesse/image (4).png">
+                    <h4>Découvrir le monde autrement </h4>
+                    <p>Accompagner chaque enfant dans sa découverte du monde avec des activités modernes et
+                        adaptées
+                        à l’âge de l’enfant.</P>
+                </article>
 
-            <article class="div-article">
-                <img src="assets/sectionPromesse/image4.png">
-                <h3>Accomplir de grandes choses en s’amusant </h3>
-                <p>Nous aidons l’enfant à renforcer ses capacités de réflexion, de concentration et d’autonomie.</P>
-            </article>
+                <article class="div-article">
+                    <img src="assets/sectionPromesse/image (5).png">
+                    <h4>Accomplir de grandes choses en s’amusant </h4>
+                    <p>Nous aidons l’enfant à renforcer ses capacités de réflexion, de concentration et d’autonomie.</P>
+                </article>
 
-            <article class="div-article">
-                <img src="assets/sectionPromesse/image6.png">
-                <h3>Réunir apprentissage et plaisir </h3>
-                <p>Nous accompagnons l’enfant dans ses apprentissages grâce à des activités adaptées et motivantes.</P>
-            </article>
-
-
-
+                <article class="div-article">
+                    <img src="assets/sectionPromesse/image (6).png">
+                    <h4>Réunir apprentissage et plaisir </h4>
+                    <p>Nous accompagnons l’enfant dans ses apprentissages grâce à des activités adaptées et motivantes.
+                    </P>
+                </article>
+            </div>
         </section>
+
+        <!-- CTA  -->
+        <section id="cta">
+            <div class="div-cta">
+                <div class="text-cta">
+                    <h2>Téléchargez maintenant !</h2>
+                    <img src="" alt="logo appli">
+                    <img src="" alt="disponible sur Android et IOS">
+                    <a class="bouton-hero" href="">Plus d'infos</a>
+                </div>
+                <img src="" alt="mookuuup cta">
+            </div>
+        </section>
+        <!-- FOOTER -->
+        <footer>
+            <div class="div-footer">
+                <img src="" alt="logo appli">
+                <div class="text-footer">
+                    <ul>
+                        <li>
+                            <a href="">Accueil</a>
+                        </li>
+                        <li>
+                            <a href="">Documentation</a>
+                        </li>
+                        <li>
+                            <a href="">Mentions Légales</a>
+                        </li>
+                        <li>
+                            <ul>
+                                <li>
+                                    <a href="">Parties</a>
+                                </li>
+                                <li>
+                                    <a href="">Problématique</a>
+                                </li>
+                                <li>
+                                    <a href="">Promesse</a>
+                                </li>
+                                <li>
+                                    <a href="">Preuves</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
     </main>
-
-    <footer>
-
-    </footer>
-
+    <script src="script.js"></script>
 </body>
 
 </html>
