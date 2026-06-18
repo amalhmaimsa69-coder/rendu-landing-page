@@ -13,24 +13,22 @@
     font-family: "Nunito Sans", sans-serif;
 }
 
-
 body {
     color: var(--text);
 }
 
 h2 {
-
+    font-size: 50px;
     color: var(--secondary);
     display: flex;
     justify-content: center;
     padding-bottom: 50px;
-
 }
 
 ul {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 70px;
 }
 
 article {
@@ -43,26 +41,30 @@ article {
     padding-bottom: 150px;
 }
 
-/* HEADER - NAV */
 
-.div-header  {
+/* HEADER - NAV */
+.div-header {
     display: flex;
     flex-direction: row;
-     justify-content: space-between;
-     
-     
+    justify-content: space-between;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 590px;
 }
-a.lien-nav {
 
-text-decoration: none;
+.img-header {
+    width: 100px;
+}
+
+a.lien-nav {
+    text-decoration: none;
     font-size: 20px;
     color: #0078BE;
-
 }
 
 li {
     list-style: none;
-
 }
 
 
@@ -82,7 +84,6 @@ a.bouton-hero {
     display: flex;
     flex-direction: column;
     gap: 40px;
-
 }
 
 .texte-hero h2 {
@@ -93,10 +94,11 @@ a {
     width: fit-content;
 }
 
+
 /* Section Probleme(Amal) */
 .container {
     max-width: 1200px;
-    margin: auto
+    margin: auto;
 }
 
 .flex-row {
@@ -118,11 +120,10 @@ a {
     max-width: 1240px;
     max-height: 500px;
     border-radius: 1rem;
+}
 
-    /*TO DO : on met pas de p dans p*/
-    p {
-        color: white;
-    }
+.contenu-enjeu-sante p {
+    color: white;
 }
 
 .flex-column {
@@ -147,17 +148,15 @@ a {
 .all-cards {
     display: flex;
     gap: 30px;
-    margin-top: 2rem;
+    margin-top: 5rem;
 }
 
 .card {
     width: 380px;
-
     display: flex;
     flex-direction: column;
     gap: 10px;
-
-
+    box-shadow: #666;
 }
 
 .card img {
@@ -169,18 +168,16 @@ a {
     text-align: center;
 }
 
+
 /* Section Solution(Cheima) */
 .card-benefice {
     gap: 10px;
-
-    /* display: flex; */
     width: 400px;
     height: 50%;
     padding: 20px;
     justify-content: center;
     border-radius: 10px;
     align-items: start;
-
 }
 
 #blue {
@@ -321,21 +318,17 @@ a {
     justify-content: center;
 }
 
+
 /* Section Promesse (Sarrah) */
 .div-promesse {
     text-align: center;
+}
 
-    h2 {
-        margin-top: 10px;
-
-    }
+.div-promesse h2 {
+    margin-top: 10px;
 }
 
 .div-article {
-    h4 {
-        color: #0078BE;
-    }
-
     border: 1px solid rgb(6, 6, 6);
     width: 350px;
     height: 340px;
@@ -347,26 +340,64 @@ a {
     margin-right: 5px;
     row-gap: 10px;
     gap: 5px;
-
-
 }
 
+.div h4 {
+    color: #0078BE;
+}
 .card-contain {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 30px;
-
-    img {
-
-        border-radius: 19px;
-
-    }
 }
 
+.card-contain img {
+    border-radius: 19px;
+}
+
+.card-contain h3{
+    display: flex;
+}
 
 /* section CTA(Cheima-Sarrah) */
-;
+
+
+
 
 
 /* section Footer (Cheima) */
+.unfoot {
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.deuxfoot {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-right:43px;
+}
+
+.-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #0078BE;
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: nowrap;
+    padding-bottom: 120px;
+}

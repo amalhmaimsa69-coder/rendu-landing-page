@@ -7,20 +7,25 @@
     <title>Documentation</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="documentation.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <main>
         <header>
             <div class="div-header">
-                <img src="assets/sectionSolution/logo.svg" alt="logo-appli">
+                <img class="img-header" src="assets/sectionSolution/logo.svg" alt="logo-appli">
                 <nav>
                     <ul>
-                        <li>
+                        <li class="nav-onglet">
                             <a class="lien-nav" href="">Accueil</a>
                         </li>
                         <li>
-                            <a class="lien-nav" href="">Documentation</a>
+                            <a class="lien-nav" href="">Landing page</a>
                         </li>
                         <li>
                             <a class="lien-nav" href="">Nous contacter</a>
@@ -29,19 +34,23 @@
                 </nav>
             </div>
         </header>
+
+
         <!-- section hero  -->
         <section class="section-hero">
             <div class="div-hero">
                 <h1>Documentation</h1>
-                <h2>Retrouvez ici toutes la documentation technique de notre projet</h2>
+                <h2 class="titre-hero">Retrouvez ici toutes la documentation technique de notre projet</h2>
             </div>
         </section>
+
 
         <!-- section introduction -->
         <section class="section-introduction">
             <div class="div-colomn">
                 <h3>INTRODUCTION AU PROJET</h3>
-                <p>Nous avons travaillé sur un projet de développement d’une application autour de la thématique de la
+                <p class="paragraphe-center">Nous avons travaillé sur un projet de développement d’une application
+                    autour de la thématique de la
                     petite enfance. Notre application consiste à aider les parents
                     à trouver des idées d’occupations et autres activités à leurs enfants en bas âge.</p>
                 <p>Nos 2 objectifs principaux sont :</p>
@@ -52,24 +61,37 @@
             </div>
         </section>
 
+
         <!-- section cible -->
         <section class="section-cible">
             <div class="div-colomn">
                 <h3>POUR QUI ?</h3>
                 <div class="paragraphe-row">
-                    <p></p>
-                    <p></p>
+                    <p class="paragraphe-center">Les utilisateurs principaux de notre application sont principalement
+                        les parents d’enfants en bas âge (de 0 à 6 ans).
+                        Mais elle peut aussi s’adresser à tous les adultes qui sont en contact avec les enfants de cette
+                        même tranche d’âge.
+                    </p>
+                    <p class="paragraphe-center">Pourquoi s’adresser aux parents ? Nous avons choisis en utilisateurs
+                        principaux, les parents pour 2 raisons.
+                        La première, est que, suite à nos recherches et à nos observations, nous avons constaté que les
+                        jeunes enfants passent la majorité de leur temps avec leurs parents (en particulier avant leur
+                        entrée à l’école maternelle).
+                        La seconde est que, les parents sont les premiers à céder aux caprices et à donner les écrans à
+                        leurs enfants
+                    </p>
                 </div>
-                <p></p>
-                <img src="" alt="persona figma">
+                <img class="img-persona" src="assetsDocumentation/sectionCible/personaProjet2.svg" alt="persona figma">
             </div>
         </section>
+
 
         <!-- section contexte -->
         <section class="section-contexte">
             <div class="div-colomn">
                 <h3>POURQUOI APPTIVITY ?</h3>
-                <p>Notre projet débute à partir d’une thématique d’objectif de développement durable énoncé par l’ONU :
+                <p class="paragraphe-center">Notre projet débute à partir d’une thématique d’objectif de développement
+                    durable énoncé par l’ONU :
                     EDUCATION QUALITY (éducation de qualité).
                     De cette thématique, un sujet nous a été imposé : la petite enfance de 0 à 6 ans.
                     De ce fait, nous avons effectué des recherches sur le sujet, nous avons fait part de nos expériences
@@ -77,7 +99,8 @@
                     surexposition des jeunes enfants sur les écrans.
                 </p>
                 <div class="paragraphe-row">
-                    <p>En approfondissant nos recherches et nos observations, nous en avons déduit que depuis la
+                    <p class="paragraphe-center">En approfondissant nos recherches et nos observations, nous en avons
+                        déduit que depuis la
                         multiplication des écrans dans les foyers, les médecins, et professionnel de la petite enfance
                         alertent sur les conséquence dramatiques de la surexposition des enfants sur les écran, sur la
                         santé et le développement des cerveaux des jeunes enfants. Ils constatent des retards de
@@ -89,7 +112,8 @@
                     </p>
                     <img src="" alt="illustration-contexte">
                 </div>
-                <p>En ce qui concerne les contraintes, nous avons identifié un enjeu principal : le fait que les
+                <p class="paragraphe-center">En ce qui concerne les contraintes, nous avons identifié un enjeu principal
+                    : le fait que les
                     activités proposées par notre application ne sont pas forcément certifiées par des professionnelles
                     de la petite enfance.
                     Etant donnée que notre application est aussi collaborative et que les parents peuvent aussi intégrer
@@ -101,45 +125,51 @@
             </div>
         </section>
 
+
         <!-- section service -->
         <section class="section-service">
-            <div class="div-colomn">
+            <div class="div-colomn-service">
                 <h3>DE QUOI S'AGIT-IL ?</h3>
-                <p>L’application dispose d’une fonctionnalité principale de quelques autres fonctionnalités annexes.</p>
+                <p class="paragraphe-center">L’application dispose d’une fonctionnalité principale de quelques autres
+                    fonctionnalités annexes.</p>
                 <div class="card-fonctionnalite-row">
                     <div class="paragraphe-colomn">
-                        <p>Fonctionnalité principale :</p>
+                        <p class="titre-fonct">Fonctionnalité principale :</p>
                         <p>Effectuer une recherche d’activité et filtrer sur la page de recherche</p>
                     </div>
-                    <img src="" alt="frame fonctionnalte principale figma">
+                    <img src="assetsDocumentation/sectionService/fonctionPrincipale.svg"
+                        alt="frame fonctionnalte principale figma">
                 </div>
                 <div class="card-fonctionnalite-row">
                     <div class="paragraphe-colomn">
-                        <p>Fonctionnalité annexe 1 :</p>
+                        <p class="titre-fonct">Fonctionnalité annexe 1 :</p>
                         <p>Parcourir les activités sur la page d'accueil</p>
                     </div>
-                    <img src="" alt="frame fonctionnalte search figma">
+                    <img src="assetsDocumentation/sectionService/fonctionAnnexe1Search.svg"
+                        alt="frame fonctionnalte search figma">
                 </div>
                 <div class="card-fonctionnalite-row">
                     <div class="paragraphe-colomn">
-                        <p>Fonctionnalité annexe 2 :</p>
+                        <p class="titre-fonct">Fonctionnalité annexe 2 :</p>
                         <p>Ajouter une activité sur la page de création</p>
                     </div>
-                    <img src="" alt="frame fonctionnalte create figma">
+                    <img src="assetsDocumentation/sectionService/fonctionAnnexe2Create.svg"
+                        alt="frame fonctionnalte create figma">
                 </div>
                 <div class="card-fonctionnalite-row">
                     <div class="paragraphe-colomn">
-                        <p>Fonctionnalité annexe 2 :</p>
+                        <p class="titre-fonct">Fonctionnalité annexe 3 :</p>
                         <p>Ajouter une activité sur la page de création</p>
                     </div>
                     <div class="paragraphe-colomn">
-                        <p>Fonctionnalité annexe 2 :</p>
+                        <p class="titre-fonct">Fonctionnalité annexe 4 :</p>
                         <p>Ajouter une activité sur la page de création</p>
                     </div>
                 </div>
                 <a class="bouton-lien-userflow" href="">Voir user flow utilisateur</a>
             </div>
         </section>
+
 
         <!-- section technologie -->
         <section class="section-tech">
@@ -149,21 +179,19 @@
                     <P>Durant la phase de prototypage de l’application, nous avons utilisé l’outil Figma. Nous avons
                         utilisé Figma pour réaliser :
                     </P>
-                    <ul>
+                    <ul class="list">
                         <li>les wireframes basses et hautes fidélités de l’application
                         </li>
                         <li>les liens entre les wireframes hautes fidélités
 
                         </li>
                     </ul>
-
                 </div>
-
                 <div class="div-colomn">
                     <P> Durant la phase de développement de l’application, nous allons utiliser les langages de
                         programmation suivants :
                     </P>
-                    <ul>
+                    <ul class="list">
                         <li>afin de rendre notre application disponible sur Apple Store, nous allons utiliser
                             Objective-C et Swift </li>
                         <li> afin de rendre notre application disponible sur Google Play, nous allons utiliser Java et
@@ -171,14 +199,9 @@
 
                         </li>
                     </ul>
-
                 </div>
-
-
             </div>
-
         </section>
-
 
 
         <!-- section prototype -->
@@ -186,11 +209,15 @@
             <div class="div-colomn">
                 <h3>PROTOTYPE</h3>
                 <h4>A votre tour !</h4>
-                <p>Vous trouverez ci-dessous, le prototype testable de notre application
+                <p class="paragraphe-center">Vous trouverez ci-dessous, le prototype testable de notre application
                     N’hésitez pas à naviguer dessus pour mieux comprendre chacune des fonctionnalités !
                 </p>
-                <img src="" alt="prototype testable">
-                <p>Nous avons pensé à une ergonomie simple et minimaliste.
+                <!--frameborder="0"-->
+                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="393" height="852"
+                    src="https://embed.figma.com/proto/QRbilwz8qCkF6ULz13q6fE/Projets-Mode-d-emploi?node-id=637-4133&p=f&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=637%3A4133&embed-host=share"
+                    allowfullscreen>
+                </iframe>
+                <p class=" paragraphe-center">Nous avons pensé à une ergonomie simple et minimaliste.
                     La barre de navigation comprend des icônes simples que l’on peut notamment retrouvés sur la plupart
                     des applications et/ou réseaux sociaux afin de faciliter l’utilisateur à se familiariser avec
                     l’application.
@@ -200,12 +227,15 @@
             </div>
         </section>
 
+
         <!-- section evolution -->
         <section class="evolution">
             <h3>ET ENSUITE ?</h3>
-            <p>Dans une logique d’amélioration continue, notre projet a plusieurs pistes d’évolutions.</p>
-            <img src="" alt="illustration-evolution">
+            <p class="paragraphe-center">Dans une logique d’amélioration continue, notre projet a plusieurs pistes
+                d’évolutions.</p>
+            <img src="assetsDocumentation/sectionEvolution/illustrationEvolution.svg" alt="illustration-evolution">
         </section>
+
 
         <!-- FOOTER -->
         <footer>
@@ -242,7 +272,6 @@
                 </div>
             </div>
         </footer>
-
     </main>
 </body>
 
