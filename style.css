@@ -188,7 +188,7 @@ a {
 
 #orange {
     box-shadow: 0px 0px 4px #0000001e;
-    border: 1px solid #CC4C0A;
+    border: 1px solid var(--primary);
     color: #cc4b0ad6;
 }
 
@@ -228,7 +228,7 @@ a {
 
 .titre-comment {
     text-align: center;
-    color: #0078BE;
+    color: var(--secondary);
     font-size: 32px;
     margin-bottom: 50px;
     letter-spacing: 2px;
@@ -343,8 +343,9 @@ a {
 }
 
 .div h4 {
-    color: #0078BE;
+    color: var(--secondary);
 }
+
 .card-contain {
     display: flex;
     flex-direction: row;
@@ -356,21 +357,17 @@ a {
     border-radius: 19px;
 }
 
-.card-contain h3{
+.card-contain h3 {
     display: flex;
 }
 
 /* section CTA(Cheima-Sarrah) */
 
-
-
-
-
 /* section Footer (Cheima) */
 .unfoot {
     display: flex;
     flex-direction: row;
-    
+
 
 }
 
@@ -378,7 +375,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: end;
-    margin-right:43px;
+    margin-right: 43px;
 }
 
 .-footer {
@@ -386,18 +383,28 @@ a {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    padding: 20px;
 }
 
 a {
     text-decoration: none;
     font-size: 20px;
-    color: #0078BE;
+    color: var(--secondary);
 }
+
 .flex-row {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     gap: 20px;
     flex-wrap: nowrap;
-    padding-bottom: 120px;
+}
+
+.signature {
+    background-color: #0066cc;
+}
+
+.prenommm {
+    color: aliceblue;
+    padding: 10px;
 }

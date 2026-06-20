@@ -153,4 +153,52 @@ section.evolution {
 
 /* FOOTER */
 
-/* copier coller css de la page index */
+.unfoot {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.deuxfoot {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-right: 43px;
+}
+
+.-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #0078BE;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: nowrap;
+    padding-bottom: 120px;
+}
+
+.signature {
+    background-color: #0066cc;
+}
+
+.prenommm {
+    color: aliceblue;
+    padding: 10px;
+}
+
+.img-fooooter {
+    width: 230px;
+}
