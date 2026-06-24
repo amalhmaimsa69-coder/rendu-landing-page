@@ -22,7 +22,7 @@
     box-sizing: border-box;
     padding: 0;
     font-family: "Nunito Sans", sans-serif;
-        text-wrap-style: balance;
+    text-wrap-style: balance;
 }
 
 
@@ -158,11 +158,12 @@ article {
     width: 100px;
 }
 
+
 /* Section HERO (Mohamed-Amine) */
 #hero-section {
     min-height: 100vh;
     display: flex;
-
+    
     .container {
         max-width: 1440px;
 
@@ -242,7 +243,7 @@ a {
     border-radius: 0 1rem 1rem 0;
 }
 
-.img-carde{
+.img-carde {
     object-fit: cover;
     border-radius: 0 1rem 1rem 0;
 }
@@ -261,6 +262,7 @@ a {
             width: 250px;
         }
     }
+
     .flex-row {
         .flex-column {
             gap: 48px;
@@ -470,14 +472,14 @@ a {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        gap:68px;
+        gap: 68px;
 
-        img{
+        img {
             width: 100px;
             height: 100px;
             border-radius: 50%;
             object-fit: cover;
-    margin: 0 auto 18px;
+            margin: 0 auto 18px;
         }
     }
 
@@ -489,14 +491,15 @@ a {
         display: flex;
         flex-direction: row;
         gap: 200px;
+
         img {
-            
+
             margin-bottom: 16px;
             width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin: 0 auto 18px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 auto 18px;
         }
     }
 }
@@ -551,24 +554,29 @@ a {
     color: aliceblue;
     padding: 10px;
 }
+
 h2.chiffre {
     font-size: 62px;
     font-weight: 400;
 }
+
 p.para-chiffre {
     text-align: center;
     font-size: 22px;
 }
+
 section.section-chiffre {
     padding: 80px;
 }
-.paragraphe{
+
+.paragraphe {
     width: 300px;
-    img{
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            object-fit: cover;
-            margin: 0 auto 18px;
+
+    img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin: 0 auto 18px;
     }
 }
