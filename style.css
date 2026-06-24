@@ -148,14 +148,15 @@ article {
     padding: 16px 32px;
     justify-content: space-between;
     align-items: center;
-    position: absolute;
+    position: fixed;
     width: 100%;
+    background-color: white;
+    z-index: 100;
 }
 
 .img-header {
     width: 100px;
 }
-
 
 /* Section HERO (Mohamed-Amine) */
 #hero-section {
@@ -214,6 +215,7 @@ a {
     flex-direction: row;
     justify-content: center;
     gap: 20px;
+    align-items: center;
 }
 
 .flex-row-center {
@@ -348,8 +350,8 @@ a {
 }
 
 .carte {
-    max-width: 360px;
-    min-height: 360px;
+    width: 360px;
+    height: 500px;
     box-sizing: border-box;
     padding: 28px;
     border-radius: 24px;
@@ -466,8 +468,9 @@ a {
         padding: 61px 80px;
         border-radius: 10px;
         display: flex;
+        flex-wrap: wrap;
         flex-direction: row;
-        gap:200px;
+        gap:68px;
 
         img{
             width: 100px;
@@ -549,7 +552,7 @@ a {
     padding: 10px;
 }
 h2.chiffre {
-    font-size: 80px;
+    font-size: 62px;
     font-weight: 400;
 }
 p.para-chiffre {
@@ -558,4 +561,14 @@ p.para-chiffre {
 }
 section.section-chiffre {
     padding: 80px;
+}
+.paragraphe{
+    width: 300px;
+    img{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 auto 18px;
+    }
 }
